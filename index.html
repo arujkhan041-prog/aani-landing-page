@@ -417,7 +417,7 @@ footer{background:#0a2d44;padding:32px 40px;text-align:center;}
 
 <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 <script>
-emailjs.init("YOUR_EMAILJS_PUBLIC_KEY");
+emailjs.init("24sfMPM4HLSBGyfs9");
 
 document.getElementById("hamburgerBtn").addEventListener("click",function(){
   document.getElementById("mobileMenu").classList.toggle("open");
@@ -441,7 +441,7 @@ document.getElementById("leadForm").addEventListener("submit",function(e){
     user_bank:document.getElementById("user_bank").value,
     user_amount:document.getElementById("user_amount").value
   };
-  emailjs.send("YOUR_SERVICE_ID","YOUR_TEMPLATE_ID",params)
+  emailjs.send("service_0wejd7j","template_xdwxpig",params)
     .then(function(){
       document.getElementById("leadForm").reset();
       document.getElementById("popupOverlay").classList.add("active");
